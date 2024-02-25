@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>AccessConnectDB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{83ad0b80-32bf-456d-b4ea-622a32a661bb}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>AccessConnectDB</RootNamespace>
+    <AssemblyName>AccessConnectDB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Usuarios_Domicilios.sql" />
+    <Build Include="dbo\Tables\Usuarios.sql" />
+    <Build Include="dbo\Tables\Transacciones.sql" />
+    <Build Include="dbo\Tables\Servicios_Programados.sql" />
+    <Build Include="dbo\Tables\Reservas_de_Amenidades.sql" />
+    <Build Include="dbo\Tables\Reglamentos.sql" />
+    <Build Include="dbo\Tables\Registro_de_Votos.sql" />
+    <Build Include="dbo\Tables\Recorridos_de_Seguridad.sql" />
+    <Build Include="dbo\Tables\Publicaciones.sql" />
+    <Build Include="dbo\Tables\Pagos.sql" />
+    <Build Include="dbo\Tables\Opciones_de_Respuesta.sql" />
+    <Build Include="dbo\Tables\Mensajes_del_Chat_con_Caseta.sql" />
+    <Build Include="dbo\Tables\Mensajes_de_Emergencia.sql" />
+    <Build Include="dbo\Tables\Mascotas.sql" />
+    <Build Include="dbo\Tables\Mantenimientos.sql" />
+    <Build Include="dbo\Tables\Lista_Negra_de_Vehiculos.sql" />
+    <Build Include="dbo\Tables\Invitados.sql" />
+    <Build Include="dbo\Tables\Invitaciones.sql" />
+    <Build Include="dbo\Tables\Incidentes.sql" />
+    <Build Include="dbo\Tables\Eventos.sql" />
+    <Build Include="dbo\Tables\Estado_de_Cuenta.sql" />
+    <Build Include="dbo\Tables\Encuestas.sql" />
+    <Build Include="dbo\Tables\Domicilios.sql" />
+    <Build Include="dbo\Tables\Comunicados.sql" />
+    <Build Include="dbo\Tables\Comprobantes_de_Pago.sql" />
+    <Build Include="dbo\Tables\Comentarios.sql" />
+    <Build Include="dbo\Tables\Amenidades.sql" />
+  </ItemGroup>
+</Project>

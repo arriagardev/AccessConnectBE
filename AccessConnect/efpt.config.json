@@ -1,0 +1,150 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "AccessConnectDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "AccessConnect",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Amenidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Comentarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Comprobantes_de_Pago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Comunicados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Domicilios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Encuestas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Estado_de_Cuenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Eventos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Incidentes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Invitaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Invitados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Lista_Negra_de_Vehiculos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mantenimientos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mascotas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mensajes_de_Emergencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mensajes_del_Chat_con_Caseta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Opciones_de_Respuesta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Pagos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Publicaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Recorridos_de_Seguridad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Registro_de_Votos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reglamentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reservas_de_Amenidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Servicios_Programados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transacciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Usuarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Usuarios_Domicilios]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "..\\AccessConnectDB\\AccessConnectDB.sqlproj",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
